@@ -1,0 +1,16 @@
+$common-grey: #87888a;
+$link-red: #f4645f;
+$margin: 30px;
+
+body {
+	color: $common-grey;
+}
+a {
+	color: $link-red;
+}
+.ip-header {
+	margin: $margin 0;
+	.uk-navbar {
+		background: none;
+	}
+}

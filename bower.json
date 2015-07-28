@@ -1,0 +1,11 @@
+{
+	"name": "ipagezi",
+	"version": "2.0.0",
+	"main": "app.js",
+	"dependencies": {
+		"uikit": "~2.20.1",
+		"bootstrap": "~3.3.4",
+		"tag-it": "*",
+		"jquery-ui": "~1.11.4"
+	}
+}

@@ -1,0 +1,54 @@
+doctype html
+html.uk-height-1-1
+	head
+		meta(charset="utf-8")
+		meta(http-equiv="X-UA-Compatible", content="IE=edge")
+		meta(name="viewport", content="width=device-width, initial-scale=1")
+		link(rel="icon", type="image/png", href="/images/favicon.png")
+		<!--[if lt IE 9]>
+		<script src="//cdn.bootcss.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+		<script src="//cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+		<![endif]-->
+		title #{page_title} - 爬格子 | 中文同人社区
+		link(rel="stylesheet", href="/libs/uikit/css/uikit.min.css")
+		style(type="text/css").
+			html {
+				background-color: #333;
+				padding-top: 30px;
+			}
+			h1 {
+				color: #f3f0dc;
+			}
+			h3, p.descrp {
+				color: #fff;
+				opacity: 0.7;
+			}
+			p {
+				color: #f3ebb8;
+			}
+			.zh {
+				font-size: 24px;
+				line-height: 36px;
+			}
+			.en {
+				font-family: "freight-text-pro",Georgia,Cambria,"Times New Roman",Times,serif;
+				font-size: 18px;
+				margin-bottom: 50px;
+			}
+			.en strong {
+				font-family: "jaf-bernino-sans","Lucida Grande","Lucida Sans Unicode","Lucida Sans",Geneva,Verdana,sans-serif;
+				color: #fff;
+				font-weight: normal;
+			}
+	body.uk-height-1-1
+		.uk-vertical-align.uk-text-center.uk-height-1-1
+			.uk-vertical-align-middle
+				h1.uk-animation-slide-top.uk-animation-2
+					img(src="/images/logo-white.png", alt="爬格子")
+				p.descrp.uk-text-center.zh 欢迎来到中文同人社区！
+				p.uk-text-center.en All about <strong>Fanfiction</strong>, but in <strong>Chinese</strong>.
+				h3.uk-animation-slide-bottom.uk-animation-3 登录后可以写作、阅读，用我们熟悉的语言玩转同人世界！
+				a.uk-width-1-1.uk-button.uk-button-primary.uk-button-large(href="/register") 欢迎注册！
+		.uk-position-top-right.uk-margin.uk-margin-right
+			a.uk-button.uk-button-success(href="/login") 登录
+			a.uk-button(href="/register") 注册
